@@ -139,8 +139,6 @@ class SCTitle {
 <a href="https://twitter.com/scotchfield">@scotchfield</a>
 (<a href="https://github.com/scotchfield">github</a>), and built using
 the <a href="https://github.com/scotchfield/arcadia">Arcadia open-source web game engine</a>.</p>
-<p>The map artwork is built using sprites from the
-<a href="http://oryxdesignlab.com/product-sprites/lofi-fantasy-sprite-set">Lo-fi Fantasy Sprite Set</a> from <a href="http://oryxdesignlab.com/">Oryx Design Lab</a>.</p>
     </div>
   </div>
 
