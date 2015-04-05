@@ -29,7 +29,7 @@ class SCTitle {
         ?>bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo( GAME_CUSTOM_STYLE_URL );
         ?>sc.css">
-    <link href="http://fonts.googleapis.com/css?family=Raleway:400,500"
+    <link href="http://fonts.googleapis.com/css?family=Lato"
           rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -38,7 +38,7 @@ class SCTitle {
 
   <div class="row">
     <div class="col-md-8 text-left">
-
+      <h1>Shattered City</h1>
     </div>
     <div class="col-md-4">
 
@@ -134,7 +134,7 @@ class SCTitle {
     <div class="col-md-2"></div>
 
     <div class="col-md-4 text-right">
-      <h4>Fun, and free!</h4>
+      <h3>Fun, and free!</h3>
       <p>Shattered City is maintained by
 <a href="https://twitter.com/scotchfield">@scotchfield</a>
 (<a href="https://github.com/scotchfield">github</a>), and built using

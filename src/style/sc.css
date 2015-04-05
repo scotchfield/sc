@@ -27,10 +27,7 @@ body {
     background-color: #000000;
     color: #e0e0e0;
 
-    background-image: url( 'tiled_bg.png' );
-    background-repeat: repeat;
-
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .navbar-default {
