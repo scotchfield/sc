@@ -2,6 +2,7 @@
 
 require( GAME_CUSTOM_PATH . 'shatteredcity.php' );
 
+require( GAME_CUSTOM_PATH . 'select.php' );
 require( GAME_CUSTOM_PATH . 'title.php' );
 
 global $ag;
