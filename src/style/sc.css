@@ -77,7 +77,6 @@ ul.nav.navbar-nav a:hover {
 }
 
 p.tip {
-    //background-color: #FFFFA0;
     border: 3px solid #E5E590;
     font-weight: bold;
     padding: 4px;
@@ -152,7 +151,6 @@ body {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 60px;
-//    background-color: #f5f5f5;
     background-color: #333333;
 }
 
@@ -215,5 +213,4 @@ code {
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
-//  background-color: #428bca;
 }
