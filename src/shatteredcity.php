@@ -9,6 +9,8 @@ class ShatteredCity {
             array( $this, 'default_state' ) );
         $ag->add_state( 'game_header', FALSE, array( $this, 'header' ) );
         $ag->add_state( 'game_footer', FALSE, array( $this, 'footer' ) );
+        $ag->add_state( 'validate_user', FALSE,
+            array( $this, 'validate_user' ) );
 
         $ag->set_component( 'achievement', new ArcadiaAchievement() );
         $ag->set_component( 'heartbeat', new ArcadiaHeartbeat() );
@@ -131,6 +133,16 @@ class ShatteredCity {
   </body>
 </html>
 <?php
+    }
+
+    public function validate_user( $args ) {
+        if ( ! isset( $args[ 'user_id' ] ) ) {
+            return FALSE;
+        }
+
+        set_user_max_characters( $args[ 'user_id' ], 1 );
+
+        return TRUE;
     }
 
 }

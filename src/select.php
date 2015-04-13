@@ -51,6 +51,9 @@ class SCSelect {
             }
         }
 
+        $this->ag->user[ 'max_characters' ] = max( 1,
+            $this->ag->user[ 'max_characters' ] );
+
         if ( count( $char_obj ) < $this->ag->user[ 'max_characters' ] ) {
 ?>
 <h1 class="text-center">Create a character</h1>
